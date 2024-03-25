@@ -22,7 +22,9 @@ Primeiro a ser criado foi o ambiente virtual venv, isolando de todo resto do sis
 
 ` python -m venv /coloque/aqui/o/caminho/do/arquivo `
 
-Apos criar o ambiente venv é preciso invocar, substituindo `<venv>` pelo caminho de invocação. Para ambientes Windows a necessidade de instalar o seu kernel virtual no `jupyter lab`, caso seu foco for laboratório jupyter, se não, ative o ambiente e use algum editor como VScode já roda no ambiente.
+Apos criar o ambiente venv é preciso invocar, substituindo `<venv>` pelo caminho de invocação. Para ambientes Windows a necessidade de instalar o seu kernel virtual no `jupyter lab`, caso seu foco for laboratório jupyter, se não, ative o ambiente e use algum editor como VScode já roda no ambiente. Use o coamndo a baixo para instalar o novo kernel no windows:
+
+`.\nome\do\venv\Scripts\python.exe -m ipykernel install --name nome_do_venv` 
 
 Abaixo temos alguns exemplos de caminhos de invocações usuais para acessar o ambiente virtual:
 
