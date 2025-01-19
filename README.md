@@ -36,6 +36,7 @@ Abaixo temos alguns exemplos de caminhos de invocações usuais para acessar o a
 |^^|PowerShell|`$ <venv>/bin/Activate.ps1`|
 |Windows|cmd.exe|`C:\> <venv>\Scripts\activate.bat`|
 |^^|PowerShell|`PS C:\> <venv>\Scripts\Activate.ps1`|
+Fonte: https://docs.python.org/3/library/venv.html
 
 ### Coleta de dados
 
